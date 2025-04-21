@@ -1,6 +1,3 @@
-以下是根据你的代码编写的README模板，包含技术细节和使用说明：
-
-```markdown
 # 智能WPS HTML代码解析器
 
 ![示例界面](https://via.placeholder.com/800x500.png/555555/ffffff?text=WPS+Code+Parser) <!-- 建议替换实际截图 -->
@@ -60,25 +57,6 @@ children.forEach((el) => {
 </code>
 ```
 
-## 🌐 部署说明
-
-### GitHub Pages
-1. 创建新仓库 `your-repo-name`
-2. 将以下文件放入仓库：
-   ```
-   index.html
-   style.css (可选)
-   ```
-3. 启用GitHub Pages服务：
-   - Settings → Pages → Branch: main → /root
-
-### 本地运行
-```bash
-# 使用Python快速启动本地服务器
-python3 -m http.server 8000
-```
-访问 http://localhost:8000 即可使用
-
 ## ⚠️ 注意事项
 
 1. **浏览器兼容**：
@@ -95,14 +73,3 @@ python3 -m http.server 8000
 
 ## 📄 许可协议
 [MIT License](LICENSE)
-```
-
----
-
-### 使用建议：
-1. 在`## 🛠️ 技术实现`部分补充你的独特算法细节
-2. 添加实际界面截图替换占位图片
-3. 在`注意事项`部分补充你的特定使用场景要求
-4. 可根据需要添加"贡献指南"或"问题反馈"章节
-
-这个README既展示了技术深度，也提供了清晰的用户指引，适合作为开源项目文档。你可以根据实际需求调整各部分内容。
